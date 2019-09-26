@@ -28,6 +28,10 @@ header .container .navbar .collapse ul li a:hover{
 .container .row .col-lg-7{
     font-family: 'Montserrat', sans-serif;
 }
+.container .row .col-lg-6 .row .col-3 a img{
+    border-radius: 50%;
+}
+
 /* Footer */
 footer{
     background-color: #13322B;
