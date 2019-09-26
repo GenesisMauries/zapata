@@ -1,9 +1,9 @@
 /* Gobierno */
 header{
-    background-color: #343A40;
+    background-color:#F8F9FA;
 }
 header .container .navbar .collapse ul li a{
-    color: #fff;
+    color: #A32344;
     font-family: 'Montserrat', sans-serif;
 }
 header .container .navbar .collapse ul li a:hover{
@@ -11,7 +11,7 @@ header .container .navbar .collapse ul li a:hover{
 }
 /* Alas */
 .navbarAlas{
-    background-color: #78D64B;
+    background-color: #00abd1;
     width: 100%;
     height: 100px;
     position: relative;
