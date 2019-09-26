@@ -9,21 +9,29 @@ header .container .navbar .collapse ul li a{
 header .container .navbar .collapse ul li a:hover{
     color: rgb(179, 142, 92)
 }
+/* Pininos */
+.pininos{
+    background-color: #60065D;
+}
 /* Alas */
 .navbarAlas{
     background-color: #00abd1;
     width: 100%;
-    height: 100px;
-    position: relative;
 }
 .navbarAlas .navbar-brand .logoAlas{
     position: absolute;
-    top: 30%;
+    top: 20%;
     z-index: 1;
 }
-.navbarAlas .button{
-    margin-right: 3%;
+.navbarAlas .collapse .navbar-nav .nav-item .nav-link{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;  
 }
+.navbarAlas .collapse .navbar-nav .nav-item a{
+    margin-right: 20px;
+}
+
+
 /* Contenido */
 .container .row .col-lg-7{
     font-family: 'Montserrat', sans-serif;
@@ -34,7 +42,7 @@ header .container .navbar .collapse ul li a:hover{
 
 /* Footer */
 footer{
-    background-color: #13322B;
+    background-color: #1D5B4F;
 }
 footer .container .row .col-lg-3 ul li{
     list-style: none;
