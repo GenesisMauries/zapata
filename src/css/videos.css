@@ -35,20 +35,6 @@ header .container .navbar .collapse ul li a:hover{
 }
 
 
-/* Videos anteriores */
-.container .row .col-lg-4 .card h5 a{
-    color: #333;
-}
-.container .row .col-lg-4 .card h5 a:hover{
-    color:#C72810;
-}
-
-
-.container .row .col-lg-4 .card .collapse .card-body img{
-    width: 240px;
-    height: 264px;
-    border-radius: 50%;
-}
 
 
 /* Footer */
@@ -67,3 +53,6 @@ footer .container .row .col-lg-3 ul li p{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
+
+/* Imagen/texto */
+
