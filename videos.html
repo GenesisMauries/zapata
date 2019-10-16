@@ -1,342 +1,388 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/videos.css">
-    <title>Zapata</title>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Re-creando a Zapata</title> 
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://www.alasyraices.gob.mx/css/videos.css">
+      
 </head>
 <body>
-    <!-- Gobierno -->
-    <header>
-        <section class="container bg-light">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="https://www.gob.mx">
-                    <img src="https://www.alasyraices.gob.mx/landing/gmx.png" width="90" height="30" class="d-inline-block align-top" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <section class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.gob.mx/tramites">Trámites</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.gob.mx/gobierno">Gobierno</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.gob.mx/busqueda">
-                                &#x1F50D
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </nav>
-        </section>
-    </header>
-    <!-- Pininos -->
-    <section class="container-fluid pininos">
-            <a href="https://www.alasyraices.gob.mx/sabatinos.html">
-                <img class="img-fluid" src="https://www.alasyraices.gob.mx/img/cartelera/sabatinos/sabatinos_banner-LG.png" alt="logo pininos" width="100%">
-            </a>
-    </section>
-    <!-- Alas -->
-    <nav class="navbar navbar-expand-lg navbar-light navbarAlas ">
-        <a class="navbar-brand mx-auto d-lg-none" href="https://www.alasyraices.gob.mx/">
-            <img class="logoAlas" src="https://github.com/GenesisMauries/ayrPropuestas/blob/master/img/ayr1.png?raw=true" width="120" height="120" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <!-- <span class="navbar-toggler-icon">&#9660;</span> -->
-            <span >&#9660;</span>
-        </button>
-        <section class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.alasyraices.gob.mx/quienessomos.html">NOSOTROS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.alasyraices.gob.mx/aplicaciones.html">APLICACIONES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.alasyraices.gob.mx/ebooks.html">E-BOOKS</a>
-                </li>
-            </ul>
-            <a class="navbar-brand d-none d-lg-block d-xl-block " href="https://www.alasyraices.gob.mx/">
-                <img class="logoAlas" src="https://github.com/GenesisMauries/ayrPropuestas/blob/master/img/ayr1.png?raw=true" width="120" height="120" alt="logo">
-            </a>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.mexicoescultura.com/">MEXICO<strong>ES</strong>CULTURA</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://www.facebook.com/alasyraicescultura/">
-                        <img src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png" alt="facebook segob" class="mb-sm-3"  >
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://twitter.com/alasyraices">
-                        <img src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png" alt="twitter segob"  class="mb-sm-3" >
-                    </a>
-                </li>
-                <li class="nav-item ">
-                    <a href="https://www.alasyraices.gob.mx/cartelera9.html" class="btn btn-outline-dark button " >Cartelera</a>
-                </li>
-            </ul>
-        </section>
-    </nav>
-    <!-- Contenido -->
-    <main class="container">
-        <!-- Video y texto -->
+   <!-- Gobierno -->
+   <header>
+       <section class="container bg-light">
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand" href="https://www.gob.mx">
+                 <img src="https://www.alasyraices.gob.mx/landing/gmx.png" width="90" height="30" class="d-inline-block align-top" alt="">
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <section class="collapse navbar-collapse justify-content-end" id="navbarNav">
+               <ul class="navbar-nav">
+                   <li class="nav-item">
+                   <a class="nav-link" href="https://www.gob.mx/tramites">Trámites</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="https://www.gob.mx/gobierno">Gobierno</a>
+                   </li>
+                   <li class="nav-item">
+                   <a class="nav-link" href="https://www.gob.mx/busqueda">&#x1F50D
+                   </a>
+                       </li>
+                   </ul>
+               </section>
+           </nav>
+       </section>
+   </header>
+   <!-- Pininos -->
+   <section class="container-fluid pininos">
+       <div class="container text-center">
+           <a href="https://www.alasyraices.gob.mx/sabatinos.html">
+               <img class="img-fluid" src="https://www.alasyraices.gob.mx/img/cartelera/sabatinos/sabatinos_banner-LG.png" alt="banner de invitación a Mis Pininos Sabatinos: El último sábado de cada mes, asiste al Complejo Cultural Los Pinos. Conoce la programación haciendo clic aquí.">
+           </a>
+           </div>
+   </section>
+   <!-- Alas -->
+   <nav class="navbar navbar-expand-lg navbar-light navbarAlas mb-5">
+       <a class="navbar-brand mx-auto d-lg-none" href="https://www.alasyraices.gob.mx/">
+           <img class="logoAlas" src="https://www.alasyraices.gob.mx/ayr1.png?raw=true" width="120" height="120" alt="logo">
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <!-- <span class="navbar-toggler-icon">&#9660;</span> -->
+           <span >&#9660;</span>
+       </button>
+       <section class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                   <a class="nav-link" href="https://www.alasyraices.gob.mx/quienessomos.html">NOSOTROS</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="https://www.alasyraices.gob.mx/aplicaciones.html">APLICACIONES</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="https://www.alasyraices.gob.mx/ebooks.html">E-BOOKS</a>
+               </li>
+           </ul>
+           <a class="navbar-brand d-none d-lg-block d-xl-block " href="https://www.alasyraices.gob.mx/">
+               <img class="logoAlas" src="https://github.com/GenesisMauries/ayrPropuestas/blob/master/img/ayr1.png?raw=true" width="120" height="120" alt="logo">
+           </a>
+           <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                   <a class="nav-link" href="https://www.mexicoescultura.com/">MEXICO<strong>ES</strong>CULTURA</a>
+               </li>
+               <li class="nav-item">
+                   <a href="https://www.facebook.com/alasyraicescultura/">
+                       <img src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png" alt="facebook" class="mb-sm-3">
+                   </a>
+               </li>
+               <li class="nav-item">
+                   <a href="https://twitter.com/alasyraices">
+                       <img src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png" alt="twitter" class="mb-sm-3">
+                   </a>
+               </li>
+               <li class="nav-item">
+                   <a href="https://www.instagram.com/alasyraicescultura/">
+                       <img src="https://www.alasyraices.gob.mx/landing/instagram.png" alt="instagram" class="mb-sm-3">
+                   </a>
+               </li>
+               <li class="nav-item">
+                   <a href="https://www.alasyraices.gob.mx/cartelera10.html" class="btn btn-outline-dark button">Cartelera</a>
+               </li>
+           </ul>
+       </section>
+   </nav>
+<!-- Contenido -->
+    <main class="container bg-warning">
+        <!-- Encabezados -->
         <section class="row">
             <section class="col">
-				<br/>
-                <br/>
-                <br/>
-                <br/>
-                <section class="row">
-                    <section class="col-lg-6 text-center mx-auto">
-                        <h2 class="font-weight-bold text-truncate ">Re-creando a Zapata</h2>
+               <br>
+               <br>
+               <div class="col text-center justify-content-center">
+                   <img class="img-fluid" src="https://www.alasyraices.gob.mx/img/cartelera/zapata.png" alt="">
+                   <h1 class="font-weight-bold text-dark">Re-creando a Zapata</h1>
+                   <!--
+                   <iframe src="https://interfaz.cenart.gob.mx/embebido_interfaz.html?VideoId=31534" width="450" height="270" frameborder="0" scrolling="no" allowfullscreen></iframe> -->
+               </div>
+               <div class="col">
+                   <div class="row">
+                       <div class="col- col-xl-6 col-xs-12 text-justify">
+                       <p>
+                       <br>La Coordinación Nacional de Desarrollo Cultural Infantil desarrolla actividades artísticas y culturales con y para niñas, niños y adolescentes en su diversidad de contextos a partir de un enfoque de Derechos atendiendo a la Convención de los Derechos del Niño, así como el juego, la creatividad y la participación infantil como ejes rectores en actividades como narración y tradición oral, laboratorios creativos, espectáculos, entre otros. Para ello es de suma importancia formar cuadros de promotoras y promotores culturales, así como talleristas, artistas y aquellos agentes que son facilitadores en el trabajo con la diversidad de infancias y adolescencias.</p>
+                       </div>
+                       <div class="col- col-xl-6 col-xs-12 text-justify">
+                         <p>
+                         <br>Por ello, en el área de Formación, consideramos la importancia de diversificar y ampliar la oferta a partir de cursos en línea, en esta ocasión y celebrando el año del Caudillo del Sur, Emiliano Zapata,  con la intención de recuperar sus ideales de identidad y comunidad, pretendemos que las y los promotores de las 32 entidades federativas puedan adquirir herramientas metodológicas a partir de los lenguajes artísticos. En estas cápsulas podrás encontrar cómo realizar narraciones orales y actividades de rap incluyendo dichos ideales.</p>
+                       </div>
+                   </div>
+               </div>
+           </section>
+       </section>
+       <section class="row">
+           <section class="col text-center">
+                <h1 class="font-weight-bold text-dark text-center">Conoce a los ponentes y mira su conferencia:</h1>
+           </section>
+        </section>
+        <!-- Ana Zarina -->
+        <section class="row justify-content-center"> 
+            <section class="col-lg-6 col-xl-6">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/ygKRa6mkNh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </section>
+            <section class="col-lg-4">
+                <section class="our-team-main">
+                    <section class="team-front">
+                        <img src="https://www.alasyraices.gob.mx/img/cartelera/huacalito/anaz.png" class="img-fluid">
+                        <h4>Ana Zarina Palafox Méndez</h4>
+                        <p><i>Jugando con la rima</i>
                         <br/>
-                        <section class="embed-responsive embed-responsive-4by3 responsiveContent">
-                            <iframe src="https://interfaz.cenart.gob.mx/embebido_interfaz.html?VideoId=31534" frameborder="0" scrolling="no" allowfullscreen></iframe>
-                        </section>        
+                        <br/>Transmitido en vivo 
+                        <br/>el 20 septiembre de 2019
+                        <br/>
+                    </section>
+                    <section class="team-back">
+                        <span>Ana Zarina, o como se refiere a sí misma, “la bruja galáctica”, es música, escritora y trovadora mexicana, experta en etnomusicología y Gestión Cultural. Trabaja con la Asociación Liefde A.C. de México en el campo de la violencia de género; con agencias gubernamentales, como músico y trovador, siempre desde una perspectiva de género. Miembro del Eleven Music Group, ha lanzado numerosos cursos y talleres de improvisación, y ha publicado numerosos libros teatrales y narrativos. También ha producido programas y colaborado en radio y televisión. En 2012 fue el primer monitor de cursos en línea sobre Arrepentimiento.
+                        </span>
                     </section>
                 </section>
-               
-				
-            	<div class="col">
-                    <div class="row">
-                        <div class="col- col-xl-6 col-xs-12 text-justify">
-                            <p>
-                                <br/>
-                                La Coordinación Nacional de Desarrollo Cultural Infantil desarrolla actividades artísticas y culturales con y para niñas, niños y adolescentes en su diversidad de contextos a partir de un enfoque de Derechos atendiendo a la Convención de los Derechos del Niño, así como el juego, la creatividad y la participación infantil como ejes rectores en actividades como narración y tradición oral, laboratorios creativos, espectáculos, entre otros. Para ello es de suma importancia formar cuadros de promotoras y promotores culturales, así como talleristas, artistas y aquellos agentes que son facilitadores en el trabajo con la diversidad de infancias y adolescencias.
-                            </p>
-                        </div>
-                    <div class="col- col-xl-6 col-xs-12 text-justify">
+            </section>
+        </section>
+        <!-- Espartaco -->
+        <section class="row justify-content-center"> 
+            <section class="col-lg-6 col-xl-6">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/qxl_ZFYBowA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="col-lg-4">
+                <section class="our-team-main">
+                    <section class="team-front">
+                        <img src="https://www.alasyraices.gob.mx/img/cartelera/huacalito/Espartaco.png" class="img-fluid">
+                        <h4>Espartaco Martínez Cárdenas</h4>
                         <p>
-                            <br>
-                            Por ello, en el área de Formación, consideramos la importancia de diversificar y ampliar la oferta a partir de cursos en línea, en esta ocasión y celebrando el año del Caudillo del Sur, Emiliano Zapata,  con la intención de recuperar sus ideales de identidad y comunidad, pretendemos que las y los promotores de las 32 entidades federativas puedan adquirir herramientas metodológicas a partir de los lenguajes artísticos. En estas cápsulas podrás encontrar cómo realizar narraciones orales y actividades de rap incluyendo dichos ideales.
+                            <i>Ya estuvo bueno</i>
+                            <br/>
+                            <br/>Transmitido en vivo 
+                            <br/>el 27 de septiembre de 2019
+                        </p>
+                        <br/>
+                    </section>
+                    <section class="team-back">
+                        <span>Posee conocimientos de danzas sagradas de India Barata-Nathyamy danzas africanas con Thiare Lamine del Ballet Nacional de Senegal; Danza Butoh en México y el extranjero, con los maestros: Yuri Nagaoka, Nike Minotau, Taketeru Kudo, Yoshiito Onho y con el grupo Yan-shu. Con lo anterior, FONCA y el Gobierno de la Cuidad de Tokio le otorgaron la beca para realizar estudios y una residencia artística con Daira kudakan, una de las compañía de danza contemporánea butoh con mayor reconocimiento en el mundo.
+                        <br/>
+                        <br/>
+                        Ha impartido cursos de dance performance en EUA y Japón (Media Seven, Taneko kaishya). Actualmente y desde el 2007 es profesor residente de dance performance en la Yoshibi University of Art and Desing en Tokio, Japón; donde prepara el proyecto Alternative fashion.
+                        <br/>
+                        <br/>
+                        Ha presentado conferencias en el Congreso Internacional de Danza Teórica, convocado por la UNAM; en el Primer Congreso Nacional de Arte y Educación, convocado por la Secretaría de Cultura de la Ciudad de México.
+                        </span>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!-- VanT -->
+        <section class="row justify-content-center"> 
+            <section class="col-lg-6 col-xl-6">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/-9n8bWkrV10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="col-lg-4">
+                <section class="our-team-main">
+                    <section class="team-front">
+                        <img src="https://www.alasyraices.gob.mx/img/cartelera/huacalito/vant.png" class="img-fluid"/>
+                        <h5>Iván Torres Salguero, “Van-T” </h5>
+                        <p>
+                            <i>Zapatismo y hip Hop</i>
+                            <br/>
+                            <br/>Transmitido en vivo 
+                            <br/>el 3 de octubre de 2019
+                        </p>
+                            <br/>
+                    </section>
+                    <section class="team-back">
+                        <span>Van-T es un artista hip-hop originario de la Ciudad de México, activo desde 1997. Su música está comprometida con el mensaje y la sustancia que caracteriza al rap serio, intimista y reflexiva socialmente en las letras, con un sonido clásico en los beats y misceláneo en los sampleos. Van-T formó parte de los <i>crews Nogara Clan</i> y <i>Mexside Familia</i>, a finales de la década de los años 90s’. Es miembro fundador del grupo de rap mexicano “Magisterio”, junto al cual trabajó en la escena hip hop nacional durante ocho años, con quienes participó en numerosos foros y festivales de México y Estados Unidos. Aparece en el compilado de "The amber rose freestyles" del beatmaker norteamericano, Judah, como el único rapero de habla hispana. Es productor musical en la compañía Cabaret Misterio y Cabaret Loaria Kids. Promotor de lectura y Cultura Infantil en el programa nacional Alas y Raíces de la Secretaría de Cultura y tallerista de Rap en la Red de FAROs y otros centros culturales, en donde ha impartido talleres de rap para niños y jóvenes de Guadalajara. Ha grabado LP’s en solitario, con varios beatmakers y productores nacionales, así como una compilación de temas de rap para niños del espectáculo "funky narración".
+                        </span>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!--Danger-->
+        <section class="row justify-content-center"> 
+            <section class="col-lg-6 col-xl-6">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/-bcNZPkwUsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="col-lg-4">
+                <section class="our-team-main">
+                    <section class="team-front">
+                        <img src="https://www.alasyraices.gob.mx/img/cartelera/huacalito/danger.png" class="img-fluid"/>
+                        <h5>Joel Alfredo Martínez, “Danger”</h5>
+                        <p>
+                            <i>La utopía</i>
+                            <br/>
+                            <br/>Transmitido en vivo 
+                            <br/>el 4 de octubre de 2019
+                        </p>
+                        <br/>
+                    </section>
+                    <section class="team-back">
+                        <span><i>Danger</i> ha realizado Giras en Europa además de presentaciones en México, Estados Unidos y países de América Latina. Es campeón estatal y nacional de “Freestyle battles” en distintos torneos del país, incluyendo concurso "Cervantes en Rap" del Festival Cervantino, donde ha obtenido el primer lugar en México en dos ocasiones. Su participación como productor y juez en el concurso de Nike “Rap Battle Force” Batallas de Freestyle, le ha dado el orgullo de ser único rapero en México que ha firmado para ser la imagen de la marca. Actualmente promueve su disco “Sembrando Laureles” que está en todas las plataformas musicales. Actualmente Danger es el Director y Productor de “Secretos de Sócrates”, un Festival Multidisciplinario Internacional en donde se exponen las diferentes disciplinas que tienen alguna relación con la palabra, como Rap, Poesía, Slam, Spokenword, Huapango, Jaraneros, entre otros performances, así como la impartición de diferentes Talleres y Conversatorios.</span>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!-- Norma -->
+        <section class="row justify-content-center"> 
+            <section class="col-lg-6 col-xl-6">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/RStS2DOeMDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="col-lg-4">
+                <section class="our-team-main">
+                    <section class="team-front">
+                        <img src="https://www.alasyraices.gob.mx/img/cartelera/huacalito/norma.png" class="img-fluid" />
+                        <h4>Norma Torres</h4>
+                        <p>
+                            <i>Los cuentos son de quien los trabaja</i>
+                            <br/>
+                            <br/>Transmitido en vivo 
+                            <br/>el 11 de octubre de 2019
                         </p> 
-                    </div> 
-                </div> 
-            </section>
-        </section> 
-        <br/>
-        <br/>
-        <section class="row">
-            <section class="col-12 text-center">
-                <h4 class="font-weight-bold">Videos anteriores</h4>
-                <hr/>
-                <p>Conoce el perfil de cada speaker haciendo click en su nombre.</p>
-
-            </section>
-        </section>
-        <br/>
-        
-        <!-- Videos anteriores -->
-        <section class="row justify-content-center ">
-            <!-- Espartaco -->
-            <section class="col-lg-4 col-md-6 col-sm-8 col-xs-8 ">
-                <section class="card mx-auto mt-3" style="width: 20rem;">
-                    <h5 class="text-center mt-3">
-                        Sesión 2: 
-                        <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Espartaco Martínez
-                        </a>
-                    </h5>
-                    <section class="embed-responsive embed-responsive-4by3 responsiveContent">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qxl_ZFYBowA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </section>
-                    <section class="collapse" id="collapseExample">
-                        <section class="card card-body text-justify">
-                            <img src="https://www.alasyraices.gob.mx/img/cartelera/Espartaco.png" class="img-fluid mx-auto d-block" alt="Espartaco">
-                            <br/>
-                            Posee conocimientos de danzas sagradas de India Barata-Nathyamy danzas africanas con Thiare Lamine del Ballet Nacional de Senegal; Danza Butoh en México y el extranjero, con los maestros: Yuri Nagaoka, Nike Minotau, Taketeru Kudo, Yoshiito Onho y con el grupo Yan-shu. Con lo anterior, FONCA y el Gobierno de la Cuidad de Tokio le otorgaron la beca para realizar estudios y una residencia artística con Daira kudakan, una de las compañía de danza contemporánea butoh con mayor reconocimiento en el mundo.
-                            <br/>
-                            <br/>
-                            Ha impartido cursos de dance performance en EUA y Japón (Media Seven, Taneko kaishya). Actualmente y desde el 2007 es profesor residente de dance performance en la Yoshibi University of Art and Desing en Tokio, Japón; donde prepara el proyecto Alternative fashion.
-                            <br/>
-                            <br/>
-                            Ha presentado conferencias en el Congreso Internacional de Danza Teórica, convocado por la UNAM; en el Primer Congreso Nacional de Arte y Educación, convocado por la Secretaría de Cultura de la Ciudad de México.
-                        </section>
-                    </section>    
-                </section>
-            </section>
-            <!-- Ana Zarina -->
-            <section class="col-lg-4 col-md-6 col-sm-8 col-xs-8 ">
-                <section class="card mx-auto mt-3" style="width: 20rem;">
-                    <h5 class="text-center mt-3">
-                        Sesión 1: 
-                        <a  data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Ana Zarina Palafox
-                        </a>
-                    </h5>
-                    <section class="embed-responsive embed-responsive-4by3 responsiveContent">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qxl_ZFYBowA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>
+                    <section class="team-back">
+                        <h6>
+                            Actriz, narradora oral, escritora y productora mexicana egresada de la Licenciatura en Actuación de la Escuela Nacional de Arte Teatral; posee un Diplomado de Literatura Infantil y Juvenil por la Universidad Iberoamericana. 
+                            Es narradora oral desde el 2000, disciplina en la que ha recibido diversas becas por parte de varias instituciones gubernamentales y privadas. Desde 2005 forma parte del equipo de narradores orales de Alas y Raíces, programa de la Secretaría de Cultura. Con sus espectáculos de narración oral ha realizado giras a gran parte de la República Mexicana y algunos países de América Latina. Ha sido conductora de televisión, tallerista, docente y asistente de dirección escénica formando parte de distintas compañías de teatro. Actualmente dirige la compañía “La Torre de los Cuentos”, que genera y produce espectáculos interdisciplinarios para niñas, niños y adolescentes.
+                        </h6>
                     </section>
-                    <section class="collapse" id="collapseExample1">
-                        <section class="card card-body text-justify">
-                            <img src="https://www.alasyraices.gob.mx/img/cartelera/ana.png" class="img-fluid mx-auto d-block" alt="Ana Zarina">
-                            <br/>
-                            Ana Zarina, o como se refiere a sí misma, “la bruja galáctica”, es música, escritora y trovadora mexicana. También es experta en etnomusicología y Gestión Cultural. Actualmente está trabajando con la Asociación Liefde A.C. de México en el campo de la violencia de género; con varias agencias gubernamentales, trabaja en el campo como músico y trovador, siempre desde una perspectiva de género. Miembro del Eleven Music Group, KD ha lanzado numerosos cursos y talleres de improvisación, y ha publicado numerosos libros teatrales y narrativos. También ha producido programas y colaborado en radio y televisión. En 2012 fue el primer monitor de cursos en línea sobre Arrepentimiento.
-                        </section>
-                    </section>    
+                    </section>
                 </section>
             </section>
         </section>
-        
-
-        
-        
-
-
-
-
-
-
-
-
-
-            
-            
-            
-        
-        
     </main> 
-    <br/>
-    <br/>
-        
-
-    <!-- Footer -->
-    <footer>
-
-        <!-- Footer alas y raices -->
+  
+   <!-- Footer -->
+   <br/>
+   <br/>
+   <footer>
+       <!-- Alas -->
         <section class="bg-light">
-                <div class="copyright py-4 text-center text-white">
-         <div class="container">
-           <div class="site-logo">
-             <br>
-             <a href="https://www.alasyraices.gob.mx/index.html" title="alasyraices" rel="home">
-              <img class="header-image" alt="alasyraices.gob.mx" src="https://www.alasyraices.gob.mx/ayr.png" title="alasyraices">
-             </a>
-           </div>
-               <div class="container align-items-center">
-             <div class="row">
-               <div class="col-md-6 col-lg-12 text-dark">
-             <br>
-             <small> Secretar&iacute;a de Cultura
-             <br>Coordinaci&oacute;n Nacional de Desarrollo Cultural Infantil
-             <br>Programa nacional <i>Alas y Ra&iacute;ces</i>, M&eacute;xico, 2019. </small>
-             <br>
-             <a href="https://www.alasyraices.gob.mx/prensa.html">Prensa</a>
-             <br>
-             <!-- <a href="https://www.alasyraices.gob.mx/directorio.html"> Directorio </a>
-             | <a href="https://www.alasyraices.gob.mx/privacidad.html"> Privacidad </a> 
-             | --> 
-             <!--
-             <a href="https://www.alasyraices.gob.mx/blogayr.html"> PapÃ¡s: Â¿CÃ³mo usar este sitio web?</a> -->
-             <br>
-             </div>
-             </div>
-           </div></section>
-
-
-
-
-        <section class="container mt-5">
-            <section class="row">
-                <section class="col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
-                    <img src="https://framework-gb.cdn.gob.mx/landing/img/logofooter.svg" alt="logo segob"  width="150" height="150" >
-                    <img src="https://www.lospinosparatodos.com/img/logo-cultura.svg" alt="logo sedecu"  width="150" height="150" >
-                </section>
-                <section class="col-lg-3 col-md-6 col-sm-6 col-xs-12 mt-lg-5 mt-sm-5 ">
-                    <ul>
-                        <li>
-                            <h6>Enlaces</h6>
-                        </li>
-                        <li class="mt-3">
-                            <a href="https://www.participa.gob.mx/">Participa</a>
-                        </li>
-                        <li>
-                            <a href="https://www.gob.mx/publicaciones">Publicaciones Oficiales</a>
-                        </li>
-                        <li>
-                            <a href="http://www.ordenjuridico.gob.mx/">Marco Jurídico</a>
-                        </li>
-                        <li>
-                            <a href="http://www.ordenjuridico.gob.mx/">Plataforma Nacional de transparencia</a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="col-lg-3 col-md-6 col-sm-6 col-xs-12 mt-lg-5">
-                    <ul>
-                        <li>
-                            <h6>¿Qué es gob.mx?</h6>
-                        </li>
-                        <li class="mt-3">
-                            <p>Es el portal único de trámites, información y participación ciudadana. <a href="https://www.participa.gob.mx/">Leer más</a></p>
-                        </li>
-                        <li>
-                            <a href="https://datos.gob.mx/">Portal de datos abiertos</a>
-                        </li>
-                        <li>
-                            <a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a>
-                        </li>
-                        <li>
-                            <a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a>
-                        </li>
-                        <li>
-                            <a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a>
-                        </li>
-                        <li>
-                            <a href="https://www.gob.mx/terminos">Términos y condiciones</a>
-                        </li>
-                        <li>
-                            <a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a>
-                        </li>
-                        <li>
-                            <a href="https://www.gob.mx/sitemap">Mapa de sitio</a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="col-lg-3 col-md-6 col-sm-6 col-xs-12 mt-lg-5">
-                    <ul>
-                        <li>
-                            <h6>Contacto</h6>
-                        </li>
-                        <li class="mt-3">
-                            <a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a>
-                        </li>
-                          
-                    </ul>
-                    <ul>
-                        <li>
-                            <h6>Síguenos en</h6>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/gobmexico/">
-                                <img src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png" class="d-inline-block align-top" alt="facebook segob"   >
-                            </a>
-                            <a href="https://twitter.com/GobiernoMX">
-                                <img src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png" class="d-inline-block align-top" alt="twitter segob"   >
-                            </a>
-                        </li>   
-                    </ul>
+            <section class="copyright py-4 text-center text-white">
+                <section class="container">
+                    <section class="site-logo">
+                        <br/>
+                        <a href="https://www.alasyraices.gob.mx/index.html" title="alasyraices" rel="home">
+                            <img class="header-image" alt="alasyraices.gob.mx" src="https://www.alasyraices.gob.mx/ayr.png" title="alasyraices">
+                        </a>
+                    </section>
+                    <section class="container align-items-center">
+                        <section class="row">
+                            <section class="col-md-6 col-lg-12 text-dark">
+                                <br/>
+                                <small> Secretar&iacute;a de Cultura
+                                <br/>Coordinaci&oacute;n Nacional de Desarrollo Cultural Infantil
+                                <br/>Programa nacional <i>Alas y Ra&iacute;ces</i>, M&eacute;xico, 2019. </small>
+                                <br/>
+                                <a href="https://www.alasyraices.gob.mx/prensa.html">Prensa</a>
+                                <br/>
+                                <!-- <a href="https://www.alasyraices.gob.mx/directorio.html"> Directorio </a>
+                                <a href="https://www.alasyraices.gob.mx/privacidad.html"> Privacidad </a> -->
+                                <!--<a href="https://www.alasyraices.gob.mx/blogayr.html"> PapÃ¡s: Â¿CÃ³mo usar este sitio web?</a> -->
+                                <br/>
+                            </section>
+                        </section>
+                    </section>
                 </section>
             </section>
         </section>
-    </footer>
-    
-            
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./src/js/videos.js" ></script>
-    <script src="./src/js/speakers.js" ></script>
+        <!-- gob -->
+       <section class="container mt-5">
+           <section class="row">
+               <section class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                   <img src="https://framework-gb.cdn.gob.mx/landing/img/logofooter.svg" alt="logo segob"  width="150" height="150" >
+                   <img src="https://www.lospinosparatodos.com/img/logo-cultura.svg" alt="logo sedecu"  width="150" height="150" >
+               </section>
+               <section class="col-lg-3 col-md-6 col-sm-6 col-xs-12 mt-lg-5 mt-sm-5 ">
+                   <ul>
+                       <li>
+                           <h6>Enlaces</h6>
+                       </li>
+                       <li class="mt-3">
+                           <a href="https://www.participa.gob.mx/">Participa</a>
+                       </li>
+                       <li>
+                           <a href="https://www.gob.mx/publicaciones">Publicaciones Oficiales</a>
+                       </li>
+                       <li>
+                           <a href="http://www.ordenjuridico.gob.mx/">Marco Jurídico</a>
+                       </li>
+                       <li>
+                           <a href="http://www.ordenjuridico.gob.mx/">Plataforma Nacional de Transparencia</a>
+                       </li>
+                   </ul>
+               </section>
+               <section class="col-lg-3 col-md-6 col-sm-6 col-xs-12 mt-lg-5">
+                   <ul>
+                       <li>
+                           <h6>¿Qué es gob.mx?</h6>
+                       </li>
+                       <li class="mt-3">
+                           <p>Es el portal único de trámites, información y participación ciudadana. <a href="https://www.participa.gob.mx/">Leer más</a></p>
+                       </li>
+                       <li>
+                           <a href="https://datos.gob.mx/">Portal de datos abiertos</a>
+                       </li>
+                       <li>
+                           <a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a>
+                       </li>
+                       <li>
+                           <a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a>
+                       </li>
+                       <li>
+                           <a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a>
+                       </li>
+                       <li>
+                           <a href="https://www.gob.mx/terminos">Términos y condiciones</a>
+                       </li>
+                       <li>
+                           <a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a>
+                       </li>
+                       <li>
+                           <a href="https://www.gob.mx/sitemap">Mapa de sitio</a>
+                       </li>
+                   </ul>
+               </section>
+               <section class="col-lg-3 col-md-6 col-sm-6 col-xs-12 mt-lg-5">
+                   <ul>
+                       <li>
+                           <h6>Contacto</h6>
+                       </li>
+                       <li class="mt-3">
+                           <a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a>
+                       </li>
+                         
+                   </ul>
+                   <ul>
+                       <li>
+                           <h6>Síguenos en</h6>
+                       </li>
+                       <li>
+                           <a href="https://www.facebook.com/gobmexico/">
+                               <img src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png" class="d-inline-block align-top" alt="facebook segob"   >
+                           </a>
+                           <a href="https://twitter.com/GobiernoMX">
+                               <img src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png" class="d-inline-block align-top" alt="twitter segob"   >
+                           </a>
+                       </li>   
+                   </ul>
+               </section>
+           </section>
+       </section>
+   </footer>
+   
+           
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
